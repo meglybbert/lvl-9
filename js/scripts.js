@@ -87,3 +87,7 @@ fetch('https://api.github.com/users/wesbos')
   });
 
 console.table(dogs);
+
+// MEG'S ADDITION: table
+console.table([{a:1, b:2, c:3}, {a:"what", b:"is", c:"this"}]);
+console.table([[1,2,3], [2,3,4]]);
